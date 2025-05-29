@@ -20,6 +20,13 @@ import sqlite3
 #git commit -m "your message"
 #copy paste git code from github
 
+
+###########################
+#1.change the code
+#2. git add .
+#3. git commit -m "Your message"
+#4. git push
+################################
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
